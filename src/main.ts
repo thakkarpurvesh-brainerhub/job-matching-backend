@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: ['http://localhost:3000', 'https://job-matching-backend.onrender.com'],
+    origin: ['http://localhost:3000', 'https://job-matching-frontend-eight.vercel.app'],
     credentials: true,
   });
 
